@@ -1,0 +1,21 @@
+{
+    "name": "js-component",
+    "version": "1.0.0",
+    "description": "Demo connecting to Substrate Node",
+    "main": "main.ts",
+    "private": false,
+    
+    "scripts": {
+        "start": "node --use_strict index.js",
+        "statr:dev": "nodemon --use_strict --inspect index.js",
+        "start:debug": "nodemon --use_strict index.js"
+    },
+    "dependencies": {
+        "@polkadot/api": "^7.15.1",
+        "@polkadot/types": "^7.15.1",
+        "web3": "^1.8.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.6"
+    }
+}
